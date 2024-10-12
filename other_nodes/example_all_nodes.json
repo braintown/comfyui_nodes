@@ -1,0 +1,838 @@
+{
+  "last_node_id": 20,
+  "last_link_id": 48,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "ColorSelect",
+      "pos": {
+        "0": -1313,
+        "1": 95
+      },
+      "size": {
+        "0": 210,
+        "1": 70
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            3,
+            35
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "value"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ColorSelect"
+      },
+      "widgets_values": [
+        "#FFFFFF"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "ColorSelect",
+      "pos": {
+        "0": -1323,
+        "1": 249
+      },
+      "size": {
+        "0": 210,
+        "1": 70
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            4,
+            39
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "value"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ColorSelect"
+      },
+      "widgets_values": [
+        "#2a758d"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "ColorSelect",
+      "pos": {
+        "0": -1302,
+        "1": 410
+      },
+      "size": {
+        "0": 210,
+        "1": 70
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            5,
+            40
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "value"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ColorSelect"
+      },
+      "widgets_values": [
+        "#d11f1f"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "ColorSelect",
+      "pos": {
+        "0": -1294,
+        "1": 572
+      },
+      "size": {
+        "0": 210,
+        "1": 70
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "links": [
+            6,
+            41
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "value"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ColorSelect"
+      },
+      "widgets_values": [
+        "#14ad1f"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "Seed_select",
+      "pos": {
+        "0": -1381,
+        "1": -107
+      },
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            36,
+            37
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "seed"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Seed_select"
+      },
+      "widgets_values": [
+        true,
+        752904695220258,
+        "randomize",
+        0
+      ]
+    },
+    {
+      "id": 10,
+      "type": "SaveImage",
+      "pos": {
+        "0": -448,
+        "1": 752
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 34,
+          "label": "images"
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "SaveImage",
+      "pos": {
+        "0": 281,
+        "1": 756
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 7,
+          "label": "images"
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "SaveImage",
+      "pos": {
+        "0": 761,
+        "1": 739
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 46,
+          "label": "images"
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "IdeogramDescribe",
+      "pos": {
+        "0": -732,
+        "1": -175
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 24,
+          "label": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "DESCRIPTION",
+          "type": "STRING",
+          "links": [
+            29,
+            32,
+            42
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "DESCRIPTION"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IdeogramDescribe"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": {
+        "0": -1347,
+        "1": -560
+      },
+      "size": {
+        "0": 315,
+        "1": 314
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            24
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "IMAGE"
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3,
+          "label": "MASK"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "ComfyUI_temp_ldhlz_00005_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "IdeogramUpscale",
+      "pos": {
+        "0": 455.443115234375,
+        "1": -315.49212646484375
+      },
+      "size": {
+        "0": 400,
+        "1": 220
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 48,
+          "label": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            46
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IdeogramUpscale"
+      },
+      "widgets_values": [
+        "realistic, high quality",
+        50,
+        50,
+        322,
+        "randomize",
+        "AUTO",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 19,
+      "type": "PreviewTextNode",
+      "pos": {
+        "0": -218,
+        "1": -266
+      },
+      "size": [
+        335.328083834381,
+        182.70166179122276
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 42,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "STRING",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewTextNode"
+      },
+      "widgets_values": [
+        "",
+        "A modern SUV, possibly a luxury brand, parked on a grassy hill overlooking a breathtaking landscape. The backdrop features a series of mist-covered mountains, with the sun setting or rising on the horizon, casting a warm golden hue over the scene. The sky is painted with soft pastel shades, and the overall ambiance is serene and tranquil.",
+        true
+      ]
+    },
+    {
+      "id": 17,
+      "type": "IdeogramTxt2Img",
+      "pos": {
+        "0": -849,
+        "1": 184
+      },
+      "size": {
+        "0": 400,
+        "1": 460
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "link": 32,
+          "widget": {
+            "name": "prompt"
+          },
+          "label": "prompt"
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 36,
+          "widget": {
+            "name": "seed"
+          },
+          "label": "seed"
+        },
+        {
+          "name": "color_palette_hex1",
+          "type": "STRING",
+          "link": 35,
+          "widget": {
+            "name": "color_palette_hex1"
+          },
+          "label": "color_palette_hex1"
+        },
+        {
+          "name": "color_palette_hex2",
+          "type": "STRING",
+          "link": 39,
+          "widget": {
+            "name": "color_palette_hex2"
+          },
+          "label": "color_palette_hex2"
+        },
+        {
+          "name": "color_palette_hex3",
+          "type": "STRING",
+          "link": 40,
+          "widget": {
+            "name": "color_palette_hex3"
+          },
+          "label": "color_palette_hex3"
+        },
+        {
+          "name": "color_palette_hex4",
+          "type": "STRING",
+          "link": 41,
+          "widget": {
+            "name": "color_palette_hex4"
+          },
+          "label": "color_palette_hex4"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            34,
+            47
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IdeogramTxt2Img"
+      },
+      "widgets_values": [
+        "(shadow), silver grey Cadillac xt5 SUV car on the edge of the mountain,sunlight,afternoon,shot from front right side,realistic film photo",
+        "10:16",
+        "NotSelected",
+        143,
+        "randomize",
+        "V_2_TURBO",
+        "AUTO",
+        "",
+        "#F21212",
+        10,
+        "",
+        0,
+        "",
+        0,
+        "",
+        0,
+        "",
+        true
+      ]
+    },
+    {
+      "id": 1,
+      "type": "IdeogramImg2Img",
+      "pos": {
+        "0": -265,
+        "1": 198
+      },
+      "size": {
+        "0": 400,
+        "1": 484
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 47,
+          "label": "image"
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 37,
+          "widget": {
+            "name": "seed"
+          },
+          "label": "seed"
+        },
+        {
+          "name": "color_palette_hex1",
+          "type": "STRING",
+          "link": 3,
+          "widget": {
+            "name": "color_palette_hex1"
+          },
+          "label": "color_palette_hex1"
+        },
+        {
+          "name": "color_palette_hex2",
+          "type": "STRING",
+          "link": 4,
+          "widget": {
+            "name": "color_palette_hex2"
+          },
+          "label": "color_palette_hex2"
+        },
+        {
+          "name": "color_palette_hex3",
+          "type": "STRING",
+          "link": 5,
+          "widget": {
+            "name": "color_palette_hex3"
+          },
+          "label": "color_palette_hex3"
+        },
+        {
+          "name": "color_palette_hex4",
+          "type": "STRING",
+          "link": 6,
+          "widget": {
+            "name": "color_palette_hex4"
+          },
+          "label": "color_palette_hex4"
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "link": 29,
+          "widget": {
+            "name": "prompt"
+          },
+          "label": "prompt"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            7,
+            48
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IdeogramImg2Img"
+      },
+      "widgets_values": [
+        "(shadow), silver grey Cadillac xt5 SUV car on the edge of the mountain,sunlight,afternoon,shot from front right side,realistic film photo",
+        "NotSelected",
+        "1152x864",
+        1090,
+        "randomize",
+        100,
+        "V_2_TURBO",
+        "AUTO",
+        "",
+        "",
+        4.9,
+        "",
+        8.6,
+        "",
+        4.4,
+        "",
+        6.5,
+        "",
+        true
+      ]
+    }
+  ],
+  "links": [
+    [
+      3,
+      4,
+      0,
+      1,
+      2,
+      "STRING"
+    ],
+    [
+      4,
+      5,
+      0,
+      1,
+      3,
+      "STRING"
+    ],
+    [
+      5,
+      6,
+      0,
+      1,
+      4,
+      "STRING"
+    ],
+    [
+      6,
+      7,
+      0,
+      1,
+      5,
+      "STRING"
+    ],
+    [
+      7,
+      1,
+      0,
+      8,
+      0,
+      "IMAGE"
+    ],
+    [
+      24,
+      2,
+      0,
+      15,
+      0,
+      "IMAGE"
+    ],
+    [
+      29,
+      15,
+      0,
+      1,
+      6,
+      "STRING"
+    ],
+    [
+      32,
+      15,
+      0,
+      17,
+      0,
+      "STRING"
+    ],
+    [
+      34,
+      17,
+      0,
+      10,
+      0,
+      "IMAGE"
+    ],
+    [
+      35,
+      4,
+      0,
+      17,
+      2,
+      "STRING"
+    ],
+    [
+      36,
+      18,
+      0,
+      17,
+      1,
+      "INT"
+    ],
+    [
+      37,
+      18,
+      0,
+      1,
+      1,
+      "INT"
+    ],
+    [
+      39,
+      5,
+      0,
+      17,
+      3,
+      "STRING"
+    ],
+    [
+      40,
+      6,
+      0,
+      17,
+      4,
+      "STRING"
+    ],
+    [
+      41,
+      7,
+      0,
+      17,
+      5,
+      "STRING"
+    ],
+    [
+      42,
+      15,
+      0,
+      19,
+      0,
+      "STRING"
+    ],
+    [
+      46,
+      20,
+      0,
+      16,
+      0,
+      "IMAGE"
+    ],
+    [
+      47,
+      17,
+      0,
+      1,
+      0,
+      "IMAGE"
+    ],
+    [
+      48,
+      1,
+      0,
+      20,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.7247295000000015,
+      "offset": [
+        1391.9421349010574,
+        483.42787051706017
+      ]
+    }
+  },
+  "version": 0.4
+}
