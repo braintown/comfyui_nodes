@@ -1,5 +1,5 @@
-# comfyui节点开发代码
-
+# comfyui custom nodes
+Some Sora applications, such as MJ, Ideogram, and Kling, are built using ComfyUI custom nodes.
 
 ### Ideogram:
 
