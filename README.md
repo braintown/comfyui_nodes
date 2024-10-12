@@ -42,7 +42,7 @@ ComfyUI nodes for using Ideogram APIs, including:
    * If you want to pick a color instead of inputting a color hex value, use `ColorSelect` node.
 
 ### Prerequisite: [Kling](https://kling.ai/) API Key
-1. Set the `access key` and `secret key` on the behind of the code before ComfyUI starts or set it on the node.
+1. Set the `ak` and `sk` in environment before ComfyUI starts or set it on the node.
 
 ### Prerequisite: [Midjourney](https://midjourney.com/) API Key
 1. Set the API key in environment variables `mj_secret` before ComfyUI starts or set it on the node.
